@@ -130,7 +130,7 @@ This project is licensed under the MIT License.
 Your Name
 
 * GitHub: https://github.com/your-username
-* LinkedIn: your-linkedin
+* LinkedIn: www.linkedin.com/in/arpit-katiyar-a5b515383
 
 ---
 
