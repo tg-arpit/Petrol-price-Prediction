@@ -31,15 +31,36 @@ Example:
 ## 📂 Project Structure
 
 ```
-project-folder/
+project-root/
 │
-├── data/               # Dataset files
-├── notebooks/          # Jupyter notebooks
-├── src/                # Source code
-├── models/             # Saved models
-├── requirements.txt
-└── README.md
+├── app.py                  # Main Flask application
+├── model_training.py       # Script for training the ML model
+├── requirements.txt        # Project dependencies
+│
+├── templates/              # HTML templates
+│   └── index.html          # Frontend UI
+│
+├── static/                 # Static files (CSS, JS)
+│   ├── css/
+│   │   └── style.css       # Styling for the app
+│   │
+│   └── js/
+│       └── main.js         # Frontend logic
+│
+└── models/                 # Saved machine learning models
 ```
+
+---
+
+## 🧠 Explanation
+
+* **app.py** → Runs the web app (Flask backend)
+* **model_training.py** → Handles data processing & model building
+* **templates/** → Contains HTML files (Flask uses this folder)
+* **static/** → Stores CSS, JavaScript, and other assets
+* **models/** → Stores trained ML models for prediction
+* **requirements.txt** → Lists all Python dependencies
+
 
 ---
 
